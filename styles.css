@@ -1,0 +1,45 @@
+.banner{
+    background-image: url("./img/banner.png");
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top:0;
+    left:0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.cartas {
+    font-family: italic;
+}
+
+#myBtn {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
