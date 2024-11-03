@@ -43,3 +43,75 @@
   #myBtn:hover {
     background-color: #555;
   }
+
+.mes::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top:0;
+    left:0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.junio{
+    background-image: url("img/junio.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.agosto{
+    background-image: url("img/agosto.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.septiembre{
+    background-image: url("img/septiembre.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.octubre{
+    background-image: url("img/octubre.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.noviembre{
+    background-image: url("#");
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.diciembre{
+    background-image: url("#");
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
