@@ -256,6 +256,37 @@
     }
 }
 
+@media (min-width: 1367px) and (max-width: 1440px) {
+    .cf {
+        height: 400px;
+    }
+
+    .pin span {
+        font-size: 1em; 
+    }
+
+    .pollo {
+        top: 50%;
+        left: 55%;
+    }
+    
+    .gaseosa {
+        top: 35%;
+        left: 49%;
+    }
+    
+    .papitas {
+        top: 45%;
+        left: 43%;
+    }
+    
+    .salsa {
+        top: 40%;
+        left: 60%;
+    }
+}
+
+
 @keyframes pulse {
     100% {
         opacity: 0;
