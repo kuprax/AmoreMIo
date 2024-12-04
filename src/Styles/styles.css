@@ -1,0 +1,297 @@
+.banner{
+    background-image: url("../img/banner.png");
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top:0;
+    left:0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.cartas {
+    font-family: italic;
+}
+
+#myBtn {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+.mes::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top:0;
+    left:0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.junio{
+    background-image: url("../img/junio.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.agosto{
+    background-image: url("../img/agosto.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.septiembre{
+    background-image: url("../img/septiembre.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.octubre{
+    background-image: url("../img/octubre.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.noviembre{
+    background-image: url("../img/noviembre.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.diciembre{
+    background-image: url("#");
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.ComboFrisby {
+    background-image: url("../img/combofrisby.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+}
+
+.señal::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top:0;
+    left:0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.cf {
+    height: 400px;
+}
+
+.pin {
+    background: #4362f8;
+    position: absolute;
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+}
+
+.pin::before {
+    content: "";
+    background: #4362f8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: pulse 1.3s ease-in-out infinite;
+}
+
+.pin a {
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5em;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    border-radius: 3em;
+    padding: 0.3em 0.6em;
+    font-size: 0.9em;
+}
+
+.pollo {
+    top: 60%;
+    left: 55%;
+}
+
+.gaseosa {
+    top: 35%;
+    left: 49%;
+}
+
+.papitas {
+    top: 55%;
+    left: 43%;
+}
+
+.salsa {
+    top: 48%;
+    left: 58%;
+}
+
+@media (max-width: 375px) {
+    .cf {
+        height: 300px;
+    }
+
+    .pin span {
+        font-size: 0.75em;
+    }
+
+    .pollo {
+        top: 43%;
+        left: 57%;
+    }
+    
+    .gaseosa {
+        top: 28%;
+        left: 49%;
+    }
+    
+    .papitas {
+        top: 37%;
+        left: 35%;
+    }
+    
+    .salsa {
+        top: 34%;
+        left: 68%;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 576px) {
+    .cf {
+        height: 300px;
+    }
+
+    .pin span {
+        font-size: 0.75em;
+    }
+
+    .pollo {
+        top: 30%;
+        left: 57%;
+    }
+    
+    .gaseosa {
+        top: 18%;
+        left: 49%;
+    }
+    
+    .papitas {
+        top: 27%;
+        left: 35%;
+    }
+    
+    .salsa {
+        top: 24%;
+        left: 68%;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+    .cf {
+        height: 400px;
+    }
+
+    .pin span {
+        font-size: 1em; 
+    }
+
+    .pollo {
+        top: 50%;
+        left: 55%;
+    }
+    
+    .gaseosa {
+        top: 35%;
+        left: 49%;
+    }
+    
+    .papitas {
+        top: 45%;
+        left: 43%;
+    }
+    
+    .salsa {
+        top: 40%;
+        left: 60%;
+    }
+}
+
+
+@keyframes pulse {
+    100% {
+        opacity: 0;
+        transform: 
+        translate(-50%, -50%)
+        scale(2.5);
+    }
+}
