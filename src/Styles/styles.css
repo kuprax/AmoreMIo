@@ -107,7 +107,7 @@
 }
 
 .diciembre{
-    background-image: url("#");
+    background-image: url("../img/diciembre.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: inherit;
@@ -295,3 +295,10 @@
         scale(2.5);
     }
 }
+
+@media screen and (max-width: 768px) {
+    #canvas {
+      width: 100%;
+      height: auto;
+    }
+  }
